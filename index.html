@@ -14,16 +14,19 @@
 </head>
 
 <body>
-    <header class="">
+    <header class="container">
         <!--navbar start-->
 
-        <nav class=" navbar navbar-expand-lg container">
+        <nav class=" navbar navbar-expand-lg fixed-top bg-light container">
             <div class="container">
-                <a class="navbar-brand text-dark fs-2 fw-bold" href="#">Edu HUB</a>
+                <a class="navbar-brand text-dark fs-3 fw-bold" href="#">Edu HUB</a>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
+
                 <div class="collapse navbar-collapse nav justify-content-center" id="navbarNav">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -49,47 +52,49 @@
 
                 </div>
             </div>
-            <button type="button" class="btn btn-outline-primary me-3">Register</button>
+
+            <button type="button"
+                class="btn btn-outline-primary me-3 d-none d-sm-none d-md-inline d-lg-inline">Register</button>
+
         </nav>
         <!--navbar end-->
         <!--slider start-->
-        <section class="container">
+        <section class="mt-5">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="images/cover/cover-1.png" class="d-block w-100 h-100" alt="...">
-                        <!--d-flex j-c-c a-itm-centr h-100 were nothing-->
-                        <div class="carousel-caption">
-                            <h1>Get Started Digital Learning</h1>
+                        <img src="images/cover/cover-1.png" class="d-block w-100 img-fluid" alt="...">
+
+                        <div class="carousel-caption d-block d-md-block">
+                            <h1 class>Get Started Digital Learning</h1>
                             <p>At Present' You can acquire complete skills from the best institutions at home through
                                 Digital
-                                process.Through which you can advanced in the job market by utilizing the acquired
-                                skills.
+                                process.Through which you can advanced in the job market.
                             </p>
                             <button type="button" class="btn btn-info btn-lg mb-1">Get Started</button>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/cover/cover-2.jpg" class="d-block w-100 h-100" alt="...">
+                        <img src="images/cover/cover-2.jpg" class="d-block w-100 img-fluid" alt="...">
                     </div>
-                    <div class="carousel-caption">
+                    <div class="carousel-caption d-block d-md-block">
                         <h1>Get Started Digital Learning</h1>
                         <p>At Present' You can acquire complete skills from the best institutions at home through
                             Digital
-                            process.Through which you can advanced in the job market by utilizing the acquired skills.
+                            process.Through which you can advanced in the job market.
                         </p>
                         <button type="button" class="btn btn-info btn-lg mb-1">Get Started</button>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/cover/cover-3.jpg" class="d-block w-100 h-100" alt="...">
+                        <img src="images/cover/cover-3.jpg" class="d-block w-100 img-fluid" alt="...">
                     </div>
-                    <div class="carousel-caption">
+                    <div class="carousel-caption d-block d-md-block">
                         <h1>Get Started Digital Learning</h1>
                         <p>At Present' You can acquire complete skills from the best institutions at home through
                             Digital
-                            process.Through which you can advanced in the job market by utilizing the acquired skills.
+                            process.Through which you can advanced in the job market.
                         </p>
-                        <button type="button" class="btn btn-info btn-lg mb-1">Get Started</button>
+                        <button type="button" class="btn btn-primary btn-lg mb-1">Get Started</button>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -227,12 +232,12 @@
             </div>
 
             <div class="d-flex justify-content-center mt-5 px-5 py-3">
-                <button type="button" class="btn btn-info px-3 py-2 text-light">See More Courses</button>
+                <button type="button" class="btn btn-primary px-3 py-2 text-light">See More Courses</button>
 
             </div>
         </section>
         <!-- courses section end-->
-        <!-- institution-info started  -->
+        <!-- institution-info start  -->
         <section class="institution-info container mt-5 custom-color" id="aboutus">
             <div class="row">
                 <div class=" col-12 col-sm-12 col-md-5 col-lg-5">
@@ -264,15 +269,15 @@
                             </div>
 
                         </div>
-                        <button type="button" class="btn btn-info ms-4 mt-3 px-4 py-2 text-light">Read More</button>
+                        <button type="button" class="btn btn-primary ms-4 mt-3 px-4 py-2 text-light">Read More</button>
                     </div>
                 </div>
             </div>
 
 
         </section>
-        <!-- institution-info ended  -->
-        <!-- Registration-box started -->
+        <!-- institution-info end  -->
+        <!-- Registration-box start -->
         <section
             class="reginstration-box container mt-5 flex-column flex-sm-column flex-md-column flex-lg-row d-flex d-sm-flex d-md-flex d-lg-flex justify-content-between align-items-center bg-info p-5"
             id="register">
@@ -322,8 +327,8 @@
             </div>
         </section>
 
-        <!-- Registration-box ended -->
-        <!-- Successfull Students started -->
+        <!-- Registration-box end -->
+        <!-- Successfull Students start -->
         <section class="studetns container mt-5" id="success">
             <h1 class="fw-bold">
                 Meet with our successful <br> students
@@ -374,12 +379,12 @@
 
             </div>
             <div class=" d-flex justify-content-center mt-3">
-                <!-- button was mt-0-->
-                <button type="button" class="btn btn-info px-5 mt-5 py-2 text-light">View All</button>
+
+                <button type="button" class="btn btn-primary px-5 mt-5 py-2 text-light">View All</button>
             </div>
         </section>
-        <!-- Success Student ended  -->
-        <!-- Students feedback started -->
+        <!-- Success Student end  -->
+        <!-- Students feedback start -->
         <section class="feedback container mt-5" id="feedback">
             <h1 class="fw-bold text-center">Some Students Feedback</h1>
             <p class="text-center">Numerous students have given their feedback about the courses you can read below.
@@ -438,7 +443,7 @@
             </div>
         </section>
         <!--students feedback end-->
-        <!-- FAQ section started -->
+        <!-- FAQ section start -->
         <section class="container asked-ques mt-5">
             <h1 class="text-center fw-bold">Frequently Asked Question</h1>
             <p class="text-center">These are the question people wanted to know</p>
@@ -516,11 +521,11 @@
 
         </section>
         <!-- FAQ section end -->
-        <!-- companies section started  -->
-        <!-- was mt-5,pe-3 was nothing  -->
-        <section class="container my-5 pe-3 text-center d-none d-sm-none d-md-none d-lg-block">
+        <!-- companies section start -->
+
+        <section class="container my-5 pe-4 text-center d-none d-sm-none d-md-none d-lg-block">
             <h1>Trusted by over 100+ companies</h1> <br>
-            <!--justify content center didnot here-->
+
             <div class="d-flex justify-content-center">
                 <div class="img-fluid ps-5"><img src="images/company/company-1.png" alt=""></div>
                 <div class="img-fluid ps-5"><img src="images/company/company-2.png" alt=""></div>
@@ -533,7 +538,7 @@
         </section>
         <!-- companies section end  -->
     </main>
-    <!-- footer started  -->
+    <!-- footer start -->
 
     <Footer class="mt-5 bg-black text-white text-center h-200 py-5">
         <h2 class="fw-bold">Edu HUB</h2>
@@ -541,9 +546,9 @@
         <p>Privacy Ploicy | Terms of use</p>
 
         <div class="">
-            <a class="g-4" target="_blank" href="https://web.facebook.com/profile.php?id=100010301977629"><i
+            <a class="" target="_blank" href="https://web.facebook.com/profile.php?id=100010301977629"><i
                     class="fa-brands fa-facebook"></i></a>
-            <a class="g-4" target="_blank" href="https://www.instagram.com/_msoharab_"><i
+            <a class="" target="_blank" href="https://www.instagram.com/_msoharab_"><i
                     class="fa-brands fa-instagram"></i></a>
 
             <a target="_blank" href="https://twitter.com/Soharabhossai13"><i class="fa-brands fa-twitter"></i></a>
@@ -553,10 +558,11 @@
     </Footer>
     <!--footer end-->
 
-
+    <!--script link start -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
+    <!--script link end -->
 </body>
 
 </html>
