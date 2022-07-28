@@ -1,0 +1,9 @@
+.custom-color {
+    background-color: #F4FAFD;
+}
+
+Footer a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
